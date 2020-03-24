@@ -1,0 +1,7 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "Learning Typescripty by making a Blockchain with it",
+    "main": "index.js",
+    "repository": "https://github.com/superstarMann/typescript_study"
+}
