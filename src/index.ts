@@ -1,18 +1,22 @@
-const name = "Seunghun",
-      color = "red",
-      adress = "seoul";
-
-      const introduce = (name:string, color:string, adress:string) => {
-          console.log (`i'm ${name}, my favorite color is ${color}, and i live in ${adress} `);
-      }
+interface Human {
+    name:string;
+    age:number;
+    adress:string;
+}
 
 
-      introduce(name, color, adress);
+const person = {
+     name: "Seunghun",
+      age: 22,
+      adress : "seoul"
+};
 
-       const wow = (name: string, age:number): string => {
-           return(`i am ${name}, i'm ${age}`);
-       };
-         wow ("seunghun", 23);
+      const introduce = (person: Human):string => {
+          return `i'm ${person.name}, my favorite color is ${person.age}, and i live in ${person.adress}!`;
+      };
+
+      console.log(introduce(person));
+
 export{};
 
 

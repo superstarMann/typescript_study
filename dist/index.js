@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const name = "Seunghun", color = "red", adress = "seoul";
-const introduce = (name, color, adress) => {
-    console.log(`i'm ${name}, my favorite color is ${color}, and i live in ${adress} `);
+const person = {
+    name: "Seunghun",
+    age: 22,
+    adress: "seoul"
 };
-introduce(name, color, adress);
-const wow = (name, age) => {
-    return (`i am ${name}, i'm ${age}`);
+const introduce = (person) => {
+    return `i'm ${person.name}, my favorite color is ${person.age}, and i live in ${person.adress}!`;
 };
-wow("seunghun", 23);
+console.log(introduce(person));
 //# sourceMappingURL=index.js.map
