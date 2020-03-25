@@ -1811,10 +1811,10 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-tsc-watch@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/tsc-watch/-/tsc-watch-4.2.3.tgz#630aaf1ed8bbfb6fbcbddb9bef96054bed217c4b"
-  integrity sha512-M1Lo37+ggVfavGX3ObUVMz9QBH7moqq2RlmBdxnz6a6etwecetznZ/ZgYOi2c9HQ4Ki2qStj7V9J/gSf0rThig==
+tsc-watch@^1.0.17:
+  version "1.1.39"
+  resolved "https://registry.yarnpkg.com/tsc-watch/-/tsc-watch-1.1.39.tgz#2575401009e6ddfe53e553e0152ec8d7e7a7c77a"
+  integrity sha512-+TClwG3mX//n37Zkq4MTfty/+v8BQfvgizcGBcCOQMShZ8Y3wUwfvzQf2jDxsNzAY+XDNDUknMvVb77HLQg/Og==
   dependencies:
     cross-spawn "^5.1.0"
     node-cleanup "^2.1.2"
