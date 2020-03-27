@@ -1,23 +1,22 @@
-interface Human {
-    name:string;
-    age:number;
-    adress:string;
+class Block{
+    public index: number;
+    public hash: string;
+    public previousHash: string;
+    public data: string;
+    public timestamp: number;
+    constructor (index: number, hash: string, previousHash: string, data: string, timestamp: number){
+        this.index = index;
+        this.hash = hash;
+        this.previousHash = previousHash;
+        this.data = data;
+        this.timestamp = timestamp;
+    }
 }
 
+const genesisBlock: Block = new Block( 0, "2020202020", "", "wow", 1234);
 
-const person = {
-     name: "Seunghun",
-      age: 22,
-      adress : "seoul"
-};
+let BlockChain: [Block] = [genesisBlock];
 
-      const introduce = (person: Human):string => {
-          return `i'm ${person.name}, my favorite color is ${person.age}, and i live in ${person.adress}!`;
-      };
-
-      console.log(introduce(person));
+console.log(BlockChain);
 
 export{};
-
-
-
