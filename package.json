@@ -6,17 +6,17 @@
     "repository": "https://github.com/superstarMann/typescript_study",
     "dependencies": {
         "concurrently": "^5.1.0",
+        "crypto-js": "^4.0.0",
+        "eslint": "^6.8.0",
         "g": "^2.0.1",
         "lite": "^4.0.5",
         "server": "^1.0.27",
         "typescript": "^3.8.3"
     },
     "scripts": {
-       
-    
         "start": "tsc-watch --onSuccess \" node dist/index.js\" "
-      },
-      "devDependencies": {
+    },
+    "devDependencies": {
         "tsc-watch": "^1.0.17"
-}
+    }
 }
