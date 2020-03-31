@@ -21,9 +21,6 @@ class Block{
 
 const genesisBlock: Block = new Block( 0, "2020202020", "", "wow", 1234);
 
-
-let BlockChain: Block[] = [genesisBlock];
-
 let BlockChain: Block[]= [genesisBlock];
 
 console.log(BlockChain);
